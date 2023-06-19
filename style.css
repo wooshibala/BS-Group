@@ -97,16 +97,16 @@
 
 .katalog_button {
   width: 103px;
-  height: 28.8px;
+  height: 30px;
   padding: 10px 35px;
-
+ 
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
-
-  color: #FFFFFF;
+  border-radius: 50%;
+  background: #1B9DD9;
 
 }
 
@@ -342,6 +342,7 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   width: 900px;
   height: 250px;
   margin-left: -80px;
+  background-color: #1B9DD9;
 }
 
 .item3 {
@@ -1762,4 +1763,60 @@ color: #050505;
   text-transform: uppercase;
   
   color: #FFFFFF;
+}
+.item__imgs1{
+  position: absolute;
+  width: 239.04px;
+  height: 194.42px;
+  left: 1579px;
+  top: 900.61px;
+}
+.item__imgs2{
+  position: absolute;
+  width: 241.34px;
+  height: 177.3px;
+  left: 1356px;
+  top: 908.87px;
+}
+.item__imgs3{
+  position: absolute;
+  width: 178.34px;
+  height: 145.05px;
+  left: 1214px;
+  top: 907.25px;
+}
+.item__texts1{
+  position: absolute;
+  width: 354px;
+  height: 61px;
+  left: 932px;
+  top: 879px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 61px;
+  /* identical to box height */
+  
+  text-transform: uppercase;
+  
+  color: #353535;
+  
+}
+.item__texts2{
+  position: absolute;
+  width: 208.92px;
+  height: 74.21px;
+  left: 950px;
+  top: 950px;
+  
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: uppercase;
+  
+  color: #353535;
 }
